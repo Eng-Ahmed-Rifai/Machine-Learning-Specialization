@@ -1,100 +1,142 @@
-# 🧠 Machine Learning Specialization
+# 🧠 Machine Learning Specialization Study Hub & Code Repository
 
-[![DeepLearning.AI](https://img.shields.io/badge/DeepLearning.AI-FF6F00?style=for-the-badge&logo=deeplearning.ai&logoColor=white)](https://www.deeplearning.ai)
-[![Stanford Online](https://img.shields.io/badge/Stanford_Online-8C1515?style=for-the-badge)](https://online.stanford.edu)
+<div align="center">
+
+### **🏆 Official 3-Course Specialization — 100% Grade Perfection**
+
+[![Specialization Credential](https://img.shields.io/badge/Coursera_Credential-CVSVNIM5HXSN-gold?style=for-the-badge&logo=coursera&logoColor=white)](https://www.coursera.org/account/accomplishments/specialization/CVSVNIM5HXSN)
+[![All Courses Grade](https://img.shields.io/badge/Average_Grade-100.00%25-brightgreen?style=for-the-badge)](https://www.coursera.org/account/accomplishments/specialization/CVSVNIM5HXSN)
 [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
-[![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)](https://numpy.org)
-[![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)](https://tensorflow.org)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+[![NumPy](https://img.shields.io/badge/NumPy-Vectorized-013243?style=for-the-badge&logo=numpy&logoColor=white)](https://numpy.org)
+[![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)](https://tensorflow.org)
 
-Complete coursework, NumPy/TensorFlow/Jupyter implementations, vector math, and foundational algorithms for the **Machine Learning Specialization** taught by **Andrew Ng** (DeepLearning.AI & Stanford Online) on Coursera.
+**Learner:** Eng. Ahmed Mohamed Abdullatif Rifai  
+**Instructors:** Andrew Ng, Eddy Shyu, Aarti Bagul, Geoff Ladwig (DeepLearning.AI & Stanford Online)  
+**License:** Kiron Open Higher Education Coursera License  
+**Comprehensive Study Guide:** [📖 Read the Complete Machine Learning Study Guide](STUDY_GUIDE.md)
 
-- **Learner:** Eng. Ahmed Mohamed Abdullatif Rifai  
-- **Sponsor:** Kiron Open Higher Education Coursera License  
-- **Completion Date:** October 6, 2026 (100.00% Across All Courses & Assessments)  
-- **Specialization Credential ID:** [CVSVNIM5HXSN](https://www.coursera.org/account/accomplishments/specialization/CVSVNIM5HXSN)  
+</div>
 
 ---
 
-## 🏆 Curriculum & Credential Tracker
+## 📌 Repository Overview
 
-| # | Course Title | Status | Grade | Certificate / Verification |
-| :-: | :--- | :---: | :---: | :---: |
-| 1 | **[Supervised Machine Learning: Regression and Classification](01-Supervised-Machine-Learning-Regression-and-Classification/)** | ✅ **Completed** | **100.00%** | [YG4LQQ8DT7IQ](https://www.coursera.org/account/accomplishments/verify/YG4LQQ8DT7IQ) |
-| 2 | **[Advanced Learning Algorithms](02-Advanced-Learning-Algorithms/)** | ✅ **Completed** | **100.00%** | [J65E9KQ92PYL](https://www.coursera.org/account/accomplishments/verify/J65E9KQ92PYL) |
-| 3 | **[Unsupervised Learning, Recommenders, Reinforcement Learning](03-Unsupervised-Learning-Recommenders-Reinforcement-Learning/)** | ✅ **Completed** | **100.00%** | [P1FH0Q4RG5X6](https://www.coursera.org/account/accomplishments/verify/P1FH0Q4RG5X6) |
-| 🎓 | **Machine Learning Specialization Master Credential** | 🏆 **Certified** | **100.00%** | [CVSVNIM5HXSN](https://www.coursera.org/account/accomplishments/specialization/CVSVNIM5HXSN) |
+This repository serves as a mathematical study hub, algorithmic reference, and code repository for the **Machine Learning Specialization** created by Andrew Ng. It documents fundamental and modern machine learning algorithms implemented from mathematical first principles in NumPy, progressing into TensorFlow deep neural networks, decision tree ensembles (Random Forests, XGBoost), unsupervised algorithms, collaborative filtering recommenders, and Deep Q-Learning (DQN).
+
+> [!NOTE]
+> All binary credential certificates and verification proofs are officially archived in Google Drive and verified via official Coursera credential IDs. This repository focuses strictly on high-yield technical artifacts: structured coursework, reusable Python modules in `src/`, and mathematical study guides.
+
+---
+
+## 🏗️ Specialization Roadmap
+
+```mermaid
+flowchart TD
+    subgraph C1["Course 1: Supervised ML: Regression & Classification"]
+        M1["Linear Regression & Cost Function J(w, b)"]
+        M2["Gradient Descent & Learning Rate Alpha"]
+        M3["Z-score Feature Normalization"]
+        M4["Logistic Regression & Decision Boundaries"]
+        M5["L2 Regularization (Weight Decay)"]
+        M1 --> M2 --> M3 --> M4 --> M5
+    end
+
+    subgraph C2["Course 2: Advanced Learning Algorithms"]
+        M6["Neural Networks & Forward Propagation"]
+        M7["Softmax Multi-Class Classification"]
+        M8["Diagnostics: High Bias vs High Variance"]
+        M9["Decision Trees & Entropy / Information Gain"]
+        M10["Tree Ensembles: Random Forests & XGBoost"]
+        M6 --> M7 --> M8 --> M9 --> M10
+    end
+
+    subgraph C3["Course 3: Unsupervised Learning & RL"]
+        M11["K-Means Clustering & Distortion Function"]
+        M12["Anomaly Detection (Gaussian Probability)"]
+        M13["Collaborative Filtering Recommenders"]
+        M14["Content-Based Two-Tower Embeddings"]
+        M15["Reinforcement Learning & Deep Q-Networks"]
+        M11 --> M12 --> M13 --> M14 --> M15
+    end
+
+    C1 --> C2 --> C3
+```
+
+---
+
+## 📚 Curriculum & Course Breakdown
+
+| # | Course Title | Score | Focus Areas | Official Verification |
+|:---:|:---|:---:|:---|:---:|
+| **01** | Supervised Machine Learning: Regression & Classification | **100%** | Cost functions, Vectorized Gradient Descent, Logistic Regression, L2 Regularization | [YG4LQQ8DT7IQ](https://www.coursera.org/account/accomplishments/verify/YG4LQQ8DT7IQ) |
+| **02** | Advanced Learning Algorithms | **100%** | Neural networks, ReLU/Softmax, Bias/Variance diagnostics, Decision Trees, XGBoost | [J65E9KQ92PYL](https://www.coursera.org/account/accomplishments/verify/J65E9KQ92PYL) |
+| **03** | Unsupervised Learning, Recommenders, Reinforcement Learning | **100%** | K-Means, Anomaly Detection, Matrix Factorization, Deep Q-Networks (DQN) | [P1FH0Q4RG5X6](https://www.coursera.org/account/accomplishments/verify/P1FH0Q4RG5X6) |
+| 🎓 | **Full Machine Learning Specialization Credential** | **100%** | **Stanford / DeepLearning.AI Master Credential** | [CVSVNIM5HXSN](https://www.coursera.org/account/accomplishments/specialization/CVSVNIM5HXSN) |
 
 ---
 
 ## 📂 Repository Structure
 
 ```text
-Machine-Learning-Specialization/
-├── 01-Supervised-Machine-Learning-Regression-and-Classification/
-│   └── README.md              # Mathematical derivations, NumPy implementations & Quiz summaries
-├── 02-Advanced-Learning-Algorithms/
-│   └── README.md              # Neural networks, activation mechanics, diagnostics & Decision trees
-├── 03-Unsupervised-Learning-Recommenders-Reinforcement-Learning/
-│   └── README.md              # K-Means, Anomaly detection, Recommender Systems, Reinforcement learning (DQN)
-├── certificates/
-│   ├── DeepLearning_Machine_Learning_Specialization_Certificate_CVSVNIM5HXSN.pdf
-│   ├── DeepLearning_Machine_Learning_Specialization_Certificate_CVSVNIM5HXSN.png
-│   ├── DeepLearning_ML_Course1_Supervised_Machine_Learning_YG4LQQ8DT7IQ.pdf
-│   ├── DeepLearning_ML_Course1_Supervised_Machine_Learning_YG4LQQ8DT7IQ.png
-│   ├── DeepLearning_ML_Course1_grades_100pct.png
-│   ├── DeepLearning_ML_Course2_Advanced_Learning_Algorithms_J65E9KQ92PYL.pdf
-│   ├── DeepLearning_ML_Course2_Advanced_Learning_Algorithms_J65E9KQ92PYL.png
-│   ├── DeepLearning_ML_Course2_grades_100pct.png
-│   ├── DeepLearning_ML_Course3_Unsupervised_Learning_Recommenders_Reinforcement_Learning_P1FH0Q4RG5X6.pdf
-│   ├── DeepLearning_ML_Course3_Unsupervised_Learning_Recommenders_Reinforcement_Learning_P1FH0Q4RG5X6.png
-│   └── DeepLearning_ML_Course3_grades_100pct.png
-└── README.md
+├── STUDY_GUIDE.md                     # Comprehensive theoretical & mathematical study guide
+├── README.md                          # Repository overview & verification index
+├── .gitignore                         # Excludes cache & certificate binaries
+├── src/
+│   └── ml_foundations/
+│       ├── __init__.py                # Package initialization
+│       ├── linear_models.py           # Vectorized Linear & Logistic Regression from scratch
+│       └── collaborative_filtering.py # Matrix Factorization & Recommender Cost/Gradients
+├── 01-Supervised-Machine-Learning.../ # Course 1 Labs & Mathematical Derivations
+├── 02-Advanced-Learning-Algorithms/   # Course 2 Neural Networks & Decision Trees
+└── 03-Unsupervised-Learning.../       # Course 3 K-Means, Recommenders & Reinforcement Learning
 ```
 
 ---
 
-## 📜 Verified Certificates & Specialization Credential
+## 🚀 Quickstart & Algorithm Toolkit
 
-### 🎓 Specialization Master Credential: Machine Learning
-- **Institution:** DeepLearning.AI & Stanford Online
-- **Instructor:** Andrew Ng
-- **Verification URL:** [https://www.coursera.org/account/accomplishments/specialization/CVSVNIM5HXSN](https://www.coursera.org/account/accomplishments/specialization/CVSVNIM5HXSN)
-- **Vector PDF:** [`certificates/DeepLearning_Machine_Learning_Specialization_Certificate_CVSVNIM5HXSN.pdf`](certificates/DeepLearning_Machine_Learning_Specialization_Certificate_CVSVNIM5HXSN.pdf)
+### Installation
+```bash
+git clone https://github.com/Eng-Ahmed-Rifai/Machine-Learning-Specialization.git
+cd Machine-Learning-Specialization
+python -m venv .venv
+source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+pip install numpy matplotlib tensorflow
+```
 
-<p align="center">
-  <img src="certificates/DeepLearning_Machine_Learning_Specialization_Certificate_CVSVNIM5HXSN.png" alt="Specialization Master Certificate" width="850">
-</p>
+### 1. Vectorized Linear Regression
+```python
+import numpy as np
+from ml_foundations.linear_models import compute_linear_cost, compute_linear_gradient
+
+X = np.array([[1.0, 2.0], [2.0, 3.0], [3.0, 4.0]])
+y = np.array([2.5, 4.5, 6.5])
+w = np.zeros(2)
+b = 0.0
+
+cost = compute_linear_cost(X, y, w, b, lambda_=0.1)
+dj_dw, dj_db = compute_linear_gradient(X, y, w, b, lambda_=0.1)
+print(f"Cost: {cost:.4f}, Grad w: {dj_dw}, Grad b: {dj_db:.4f}")
+```
+
+### 2. Collaborative Filtering Cost & Gradients
+```python
+import numpy as np
+from ml_foundations.collaborative_filtering import cofi_cost_func
+
+X = np.random.randn(10, 4)  # 10 items, 4 features
+W = np.random.randn(5, 4)   # 5 users, 4 features
+b = np.zeros((1, 5))
+Y = np.random.randint(1, 6, size=(10, 5)).astype(float)
+R = (Y > 0).astype(float)
+
+cost, X_grad, W_grad, b_grad = cofi_cost_func(X, W, b, Y, R, lambda_=1.0)
+print(f"Recommender Cost: {cost:.4f}")
+```
 
 ---
 
-### Course 1: Supervised Machine Learning: Regression and Classification
-- **Grade:** 100.00%
-- **Verification URL:** [https://www.coursera.org/account/accomplishments/verify/YG4LQQ8DT7IQ](https://www.coursera.org/account/accomplishments/verify/YG4LQQ8DT7IQ)
-- **Vector PDF:** [`certificates/DeepLearning_ML_Course1_Supervised_Machine_Learning_YG4LQQ8DT7IQ.pdf`](certificates/DeepLearning_ML_Course1_Supervised_Machine_Learning_YG4LQQ8DT7IQ.pdf)
-
-<p align="center">
-  <img src="certificates/DeepLearning_ML_Course1_Supervised_Machine_Learning_YG4LQQ8DT7IQ.png" alt="Course 1 Certificate" width="850">
-</p>
-
----
-
-### Course 2: Advanced Learning Algorithms
-- **Grade:** 100.00%
-- **Verification URL:** [https://www.coursera.org/account/accomplishments/verify/J65E9KQ92PYL](https://www.coursera.org/account/accomplishments/verify/J65E9KQ92PYL)
-- **Vector PDF:** [`certificates/DeepLearning_ML_Course2_Advanced_Learning_Algorithms_J65E9KQ92PYL.pdf`](certificates/DeepLearning_ML_Course2_Advanced_Learning_Algorithms_J65E9KQ92PYL.pdf)
-
-<p align="center">
-  <img src="certificates/DeepLearning_ML_Course2_Advanced_Learning_Algorithms_J65E9KQ92PYL.png" alt="Course 2 Certificate" width="850">
-</p>
-
----
-
-### Course 3: Unsupervised Learning, Recommenders, Reinforcement Learning
-- **Grade:** 100.00%
-- **Verification URL:** [https://www.coursera.org/account/accomplishments/verify/P1FH0Q4RG5X6](https://www.coursera.org/account/accomplishments/verify/P1FH0Q4RG5X6)
-- **Vector PDF:** [`certificates/DeepLearning_ML_Course3_Unsupervised_Learning_Recommenders_Reinforcement_Learning_P1FH0Q4RG5X6.pdf`](certificates/DeepLearning_ML_Course3_Unsupervised_Learning_Recommenders_Reinforcement_Learning_P1FH0Q4RG5X6.pdf)
-
-<p align="center">
-  <img src="certificates/DeepLearning_ML_Course3_Unsupervised_Learning_Recommenders_Reinforcement_Learning_P1FH0Q4RG5X6.png" alt="Course 3 Certificate" width="850">
-</p>
+## 👤 Author
+**Eng. Ahmed Rifai**  
+*AI & Computer Vision Engineer*  
+GitHub: [@Eng-Ahmed-Rifai](https://github.com/Eng-Ahmed-Rifai)
